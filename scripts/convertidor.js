@@ -157,7 +157,7 @@ function convertirResultado(option1, number, option2) {
             return `${number*(1/625)} tareas`
         }
         if(option2 == "m"){
-            return `${number*(0.64/1)} metros\xB2`
+            return `${number*(0.6987/1)} metros\xB2`
         }
         // Dejar asi
         if(option2 == "v"){
