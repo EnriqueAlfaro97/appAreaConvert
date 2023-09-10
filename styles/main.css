@@ -95,6 +95,10 @@ footer {
 
 }
 
+img {
+    width: 450px;
+}
+
 .alumnos {
     margin-top: 10px;
     text-align: center;
