@@ -137,7 +137,7 @@ function convertirResultado(option1, number, option2) {
             return `${number} metros\xB2`
         }
         if(option2 == "v"){
-            return `${number*(1/0.64)} varas\xB2`
+            return `${number*(1/0.6987)} varas\xB2`
         }
         if(option2 == "t"){
             return `${number*(0.698/1)} hectareas  => ${number*(1/64)} caballerias  => ${number*(16/1)} tareas  => ${number*(1/6980)} manzanas  => ${number*(10000/1)} varas\xB2`
