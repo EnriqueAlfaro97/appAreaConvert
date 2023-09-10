@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de Unidades de Area</title>
+    <!--LINKS-->
+    <!-- <link rel="stylesheet" href="/styles/header.css"> -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- <link rel="stylesheet" href="/styles/convertidor.css">
+    <link rel="stylesheet" href="/styles/footer.css"> -->
+</head>
+
+<body>
+    <header>
+        <nav class="menu-bar">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+        </nav>
+    </header>
+    <section class="intro">
+        <h1 class="title">CONVERSOR DE UNIDADES DE AREA</h1>
+        <p class="desc">Con esta página web te ayudaremos a convertir las unidades de áreas (Las requeridas para el
+            proyecto).
+    </section>
+    <div class="convertidor">
+        <h1 class="convertidor-title">Convertir unidades de longitud</h1>
+        <div class="convertidor-longitud">
+            <form class="form" id="form-longitud">
+                <label for="options-longitud-1">Convertir de:</label>
+                <input type="number" id="option-number-longitud" step="any">
+                <select id="options-longitud-1" class="options">
+                    <option value="ma">Manzana</option>
+                    <option value="he">Hectarea</option>
+                    <option value="ca">Caballeria</option>
+                    <option value="ta">Tarea</option>
+                    <option value="m">Metro&sup2;</option>
+                    <option value="v">Vara&sup2;</option>
+                </select>
+                <label for="options-longitud-2">a:</label>
+                <select id="options-longitud-2" class="options">
+                    <option value="ma">Manzana</option>
+                    <option value="he">Hectarea</option>
+                    <option value="ca">Caballeria</option>
+                    <option value="ta">Tarea</option>
+                    <option value="m">Metro&sup2;</option>
+                    <option value="v">Vara&sup2;</option>
+                    <option value="t">Todas</option>
+                </select>
+                <button type="submit" class="btn">Convertir</button>
+            </form>
+            <h4 class="displayResult" id="displayResult-longitud"></h4>
+        </div>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <footer class="footer">
+
+        </footer>
+    </div>
+    <!--SCRIPTS-->
+    <script src="scripts/convertidor.js"></script>
+    <!-- <script src="/scripts/footer.js"></script> -->
+</body>
+
+</html>
